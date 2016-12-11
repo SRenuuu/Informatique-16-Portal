@@ -1,0 +1,51 @@
+body {
+	background-image:url(../img/background.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	color:#fff;
+}
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 60px auto 0 auto;
+}
+.detailbox {
+	display:none;
+}
+.form-control {
+	background-color: #333333;
+	border: 1px solid #4a4a4a;
+	color: #fff6f6;
+}
+.backbtn {
+	display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/backarrow.png);
+    background-size: contain;
+    margin: 15px auto;
+}
+.navbar-brand {
+	font-weight:800;
+}
+.navbar-default .navbar-nav > li > a {
+	font-size:18px;
+}
+.inner.cover input, .inner.cover button, .inner.cover select{
+	width:450px;
+	display:inline-block;
+}
+#members {
+	overflow: scroll;
+    height: 386px;
+}
+.quizdiv label {
+	font-size:18px;
+	margin-bottom:10px;
+}
+.quizdiv {
+	text-align:left;
+}
+.question {
+	display:none;
+}
